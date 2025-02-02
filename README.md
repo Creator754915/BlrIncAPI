@@ -49,6 +49,12 @@ print(all_users)
 user_info = gu.name("nom_utilisateur")
 ```
 
+c. Trier les utilisateurs par un critère donné
+```py
+sorted_users = gu.sortBy("asc ")
+print(sorted_users)
+```
+
 ## Remarque
 - Les mots de passe des utilisateurs sont masqués pour des raisons de sécurité.
 - La méthode `sortBy(self, type)` est actuellement non implémentée.
