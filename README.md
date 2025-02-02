@@ -49,20 +49,12 @@ print(all_users)
 user_info = gu.name("nom_utilisateur")
 ```
 
-#### c. Vérifier le statut de la requête
-```python
-if gu.CheckStatus():
-    print("Connexion réussie !")
-else:
-    print("Échec de connexion !")
-```
-
 ## Remarque
 - Les mots de passe des utilisateurs sont masqués pour des raisons de sécurité.
 - La méthode `sortBy(self, type)` est actuellement non implémentée.
 
 ## Auteur
-Développé par [Votre Nom].
+Développé par Creator754915.
 
 ## Licence
 Ce projet est sous licence MIT.
