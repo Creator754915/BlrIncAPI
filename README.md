@@ -16,7 +16,7 @@ pip install requests
 La fonction `RequestBLR()` envoie une requête à l'API et récupère les données sous forme de dictionnaire.
 
 ```python
-from your_module import RequestBLR
+from BlrIncAPI import RequestBLR
 
 data, status = RequestBLR()
 if status == 200:
@@ -27,7 +27,7 @@ if status == 200:
 La fonction `PrintPretty(data)` permet d'afficher les informations utilisateur de manière formatée.
 
 ```python
-from your_module import PrintPretty
+from BlrIncAPI import PrintPretty
 
 PrintPretty(data)
 ```
@@ -37,7 +37,7 @@ Une classe `getUser` est disponible pour manipuler plus facilement les données 
 
 #### a. Récupérer tous les utilisateurs
 ```python
-from your_module import getUser
+from BlrIncAPI import getUser
 
 gu = getUser()
 all_users = gu.all()
